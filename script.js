@@ -3,9 +3,9 @@
 let charachters = ['Harry', 'Hermione' , 'Ron', 'Draco', 'Luna'];
 for (let i = 0; i < charachters.length; i++) { console.log(charachters[i])}
 //Q2 HELP
-let firstName= "Harry";
-let house= "Griffindor";
-console.log('Welcome, ${firstName} of ${house}!');
+let firstName= 'Harry';
+let house= 'Griffindor';
+console.log(`Welcome, ${firstName} of ${house}!`);
 //Q3
 let charachterName='Hermione';
 console.log(charachterName.toLowerCase());
