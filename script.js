@@ -1,8 +1,9 @@
 
 //Q1
 let charachters = ['Harry', 'Hermione' , 'Ron', 'Draco', 'Luna'];
-for (let i = 0; i < charachters.length; i++) { console.log(charachters[i])}
-//Q2 HELP
+for (let i = 0; i < charachters.length; i++){
+console.log(charachters[i])}
+//Q2
 let firstName= 'Harry';
 let house= 'Griffindor';
 console.log(`Welcome, ${firstName} of ${house}!`);
@@ -51,5 +52,4 @@ wizards.push('Luna', 'Draco');
 console.log(wizards);
 //Q14 HELP
 let message = 'Welcome to Hogwarts School of Witchcraft and Wizardy';
-let message2= message.slice().concat('Castle');
-console.log(message2);
+console.log(message.slice(11,20).concat('Castle'));
